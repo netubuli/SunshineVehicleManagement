@@ -10,12 +10,12 @@ import java.util.logging.Logger;
 public class Allocation extends JFrame implements ItemListener
 {
 
-    private JTextField classfield;
-    private JTextField namefield;
-    private JButton ok;
-    private JLabel pfNumberTF;
+    private final JTextField classfield;
+    private final JTextField namefield;
+    private final JButton ok;
+    private final JLabel pfNumberTF;
     private JComboBox pfcombo;
-    private JComboBox Vregcombo;
+    private final JComboBox Vregcombo;
     private JProgressBar progressValidation;
      private String regNumber,allocatedCheck;
 
